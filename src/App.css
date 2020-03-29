@@ -1,0 +1,23 @@
+:root{
+  --mainRed:#c81912;
+  --lightRed:#f64b3c;
+  --mainWhite:#ededed;
+  --mainDark:#42240c;
+  --mainYellow:#ecce6d;
+}
+body{
+  font-family: 'Lato', sans-serif!important;
+  background: var(--mainWhite)!important;
+  color: var(--mainDark)!important;
+}
+.text-title{
+  font-family:'Headland One', serif;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.text-red{
+  color: var(--mainRed);
+}
+.text-bright{
+  color: var(--lightRed);
+}
